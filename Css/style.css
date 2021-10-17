@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-font{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+.front-font{
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* header part starts */
+header{
+    background: url(../Images/frontImage.jpg) no-repeat center/cover;
+    height: 100vh;
+    border: 1px solid white;
+}
+/* nav part starts */
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px gray;
+    width: 100%; 
+    z-index: 10;
+}
+.nav-a{
+    text-decoration: none;
+    color: black;
+}
+.nav-a:hover{
+    background-color: #CCCCCC;
+}
+.page-title{
+    display: inline-block;
+    float: left;
+    margin: 1.1rem 1rem;
+}
+.page-title a{
+    padding: 0.6rem 1rem;
+}
+.links{
+    display: inline-block;
+    float: right;
+    margin: 0.5rem 0.5rem;
+}
+.links ul{
+    list-style-type: none;
+}
+.links ul li{
+    display: inline-block;
+}
+.links ul li a{
+    display: inline-block;
+    padding: 0.6rem 1rem;
+}
+/* nav part ends */
+
+/* front section starts */
+.front-section{
+    width: 100%;
+}
+/* .front-section::before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background: url(../Images/frontImage.jpg) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+} */
+.front-div{
+    height: auto;
+    width: 400px;
+    margin: 300px auto;
+    text-align: center;
+}
+.front-div span{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0.7rem;
+}
+/* front section ends */
+/* header ends */
+
+/* project section starts */
+.projects{
+    /* margin-top: 6rem; */
+    padding: 5rem 2rem 0rem 2rem;
+    z-index: -1;
+}
+.section-h2{
+    border-bottom: 1px solid rgba(169, 169, 169, 0.3);
+    padding-bottom: 1rem;
+}
+.project-list{
+    list-style-type: none;
+    margin: 3rem 0rem;
+}
+.project-list li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.project-items{
+    position: relative;
+}
+.project-items img{
+    height: 200px;
+    width: 300px;
+}
+.project-items span{
+    padding: 0.5rem 1rem;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(0,0, 0);
+    color: white;
+}
+
+/* project section ends */
+
+.about{
+    padding: 5rem 2rem 0rem 2rem;
+    /* margin-top: 2rem; */
+}
+.about p{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+.about-card-container{
+    margin-top: 2rem;
+    display: inline-block;
+}
+.about-card-list{
+    list-style-type: none;
+}
+.about-card-list li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.card{
+    /* border: 1px solid green; */
+    width: 300px;
+}
+.card h2{
+    margin-top: 1rem;
+}
+.card h4{
+    margin-top: 1rem;
+    color: #919191;
+}
+.card img{
+    height: 200px;
+    width: 300px;
+}
+.card button{
+    margin-top: 1rem;
+    padding: 0.8em 0rem;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+}
+.card button:hover{
+    background-color: #CCCCCC;
+}
+/* about part ends */
+
+/* contact part starts */
+.contact{
+    padding: 5rem 2rem 3rem 2rem;
+    margin-top: 2rem;
+}
+.contact p{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+.form-container{
+    margin-top: 1rem;
+}
+.form-container form input{
+    display: block;
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.form-container form button{
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.form-container form button:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+/* contact part ends  */
+
+/* map part starts */
+
+.map-container{
+    margin: 0rem 2rem;
+}
+.map-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* map part ends  */
+
+/* footer part starts */
+
+footer{
+    padding: 2rem 0rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* footer part ends  */
